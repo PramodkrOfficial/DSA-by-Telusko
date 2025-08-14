@@ -30,9 +30,6 @@ public class QuickSort {
         arr[high] = temp;
         return i+1;
 
-
-
-
     }
 
     public static void main(String[] args) {
@@ -42,7 +39,6 @@ public class QuickSort {
         for (int num : arr) {
             System.out.print(num + " ");
         }
-
 
         quickSort(arr, 0, arr.length-1);
 
