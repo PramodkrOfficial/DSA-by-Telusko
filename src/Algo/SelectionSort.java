@@ -1,4 +1,4 @@
-import org.w3c.dom.ls.LSOutput;
+package Algo;
 
 public class SelectionSort {
     public static void main (String[] args) {

@@ -1,3 +1,5 @@
+package Algo;
+
 public class BinarySearch {
     public static void main(String[] args) {
 //        int nums[] = {5,7,9,11,13};

@@ -1,3 +1,5 @@
+package Algo;
+
 public class BubbleSort {
     public static void main(String[] args) {
         int nums[] = {6,5,2,8,4,9};

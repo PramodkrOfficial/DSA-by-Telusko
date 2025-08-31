@@ -1,4 +1,6 @@
+package DataStructure;
 
+//import java.util.LinkedList;
 
 public class LinkedTest {
     public static void main(String[] args) {
@@ -16,7 +18,7 @@ public class LinkedTest {
 
         nums.printValues();
 
-
+//
 //        nums.addFirst(6);
 //        System.out.println(nums.get(2));
 //        nums.peek();
