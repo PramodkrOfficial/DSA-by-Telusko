@@ -1,4 +1,4 @@
-package DataStructure;
+package DataStructure.list;
 
 class Node {
     int data;
