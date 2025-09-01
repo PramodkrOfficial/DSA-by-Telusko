@@ -49,6 +49,7 @@ public class BinaryTree {
         }
     }
     public void preorder() {
+        System.out.println();
         System.out.println("MY preorder data is: ");
         preorderRec(root);
         System.out.println();
@@ -57,12 +58,13 @@ public class BinaryTree {
     public void preorderRec(TreeNode root) {
 
         if (root != null) {
-            preorderRec(root.left);
             System.out.print(root.data + " ");
+            preorderRec(root.left);
             preorderRec(root.right);
         }
     }
     public void postorder() {
+        System.out.println();
         System.out.println("MY postorder data is: ");
         postorderRec(root);
         System.out.println();
@@ -71,9 +73,9 @@ public class BinaryTree {
     public void postorderRec(TreeNode root) {
 
         if (root != null) {
-            postorderRec(root.left);
             System.out.print(root.data + " ");
             postorderRec(root.right);
+            postorderRec(root.left);
         }
     }
 }

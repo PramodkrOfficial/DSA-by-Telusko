@@ -14,6 +14,8 @@ public class BinaryTreeTest {
         tree.insert(5);
 
         tree.inorder();
+        tree.preorder();
+        tree.postorder();
 
     }
 }
